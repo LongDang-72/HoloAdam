@@ -1,5 +1,5 @@
 """
-Holo-Gradient Optimization Framework (ICML 2026 Release)
+Holo-Gradient Optimization Framework
 Algorithm: HoloAdam (for Large Scale)
 
 Description:
@@ -9,7 +9,7 @@ by ~95% while retaining directional momentum history.
 
 Usage:
     from holo_optimizer import HoloAdam
-    opt = HoloAdam(model.parameters(), lr=1e-4, holo_ratio=20)
+    opt = HoloAdam(model.parameters(), lr=1e-4, holo_ratio=32)
 """
 
 import torch
