@@ -2,11 +2,10 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
-[![Paper](https://img.shields.io/badge/Paper-ICML%20Submission-green)](https://github.com/LongDang-72/HoloAdam)
 
 **HoloAdam** is a memory-efficient optimizer that compresses momentum states by **32x** (adjustable 2x–128x) using Holographic Reduced Representations (HRR). It enables **full pre-training and fine-tuning** of large models (e.g., Llama-3-8B) on consumer hardware without the convergence instability of Adafactor or the rank bottlenecks of LoRA.
 
-> **Paper Title:** *HoloAdam: Holographic Compressed Optimization for Democratizing Large Scale Training*
+> **Paper Title:** *HoloAdam: High-Fidelity LLM Optimization via Holographic Momentum Superposition*
 
 ---
 
