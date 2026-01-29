@@ -1,0 +1,22 @@
+# --- Core Deep Learning ---
+torch>=2.0.0
+torchvision
+torchaudio
+
+# --- LLM Ecosystem ---
+accelerate>=0.21.0
+transformers>=4.31.0
+bitsandbytes>=0.40.0
+datasets
+trl>=0.4.7
+
+# --- Visualization & Science ---
+matplotlib      
+numpy
+scipy           # Often needed for signal processing checks
+tqdm            # For progress bars in the scripts
+tensorboardX    # For your logging
+
+# --- Notebook Support ---
+jupyter
+ipykernel
